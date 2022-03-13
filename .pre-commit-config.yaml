@@ -8,6 +8,7 @@ repos:
         language: script
         always_run: true  # Run on every commit.
         exclude: .*       # Otherwise runs once per file.
+        verbose: true
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.1.0
     hooks:
