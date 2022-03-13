@@ -1,5 +1,5 @@
 #!/bin/bash
 
 curl -X 'GET' \
-  'https://github.com/sadikkuzu' \
+  'https://pre-commit.ci' \
   -H 'accept: application/json'
