@@ -1,5 +1,5 @@
 #!/bin/bash
 
 curl -X 'GET' \
-  'https://7mj8i7.deta.dev/?local=123' \
+  'https://github.com/sadikkuzu' \
   -H 'accept: application/json'
