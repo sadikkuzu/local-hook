@@ -49,7 +49,7 @@ repos:
     -   id: mypy
         additional_dependencies: [types-all]
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.11.0
+    rev: typos-dict-v0.8.8
     hooks:
       - id: typos
 -   repo: https://github.com/shellcheck-py/shellcheck-py
