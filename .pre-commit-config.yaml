@@ -34,22 +34,22 @@ repos:
     -   id: add-trailing-comma
         args: [--py36-plus]
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.3.2
+    rev: v3.4.0
     hooks:
     -   id: pyupgrade
         args: [--py37-plus]
--   repo: https://github.com/asottile/reorder_python_imports
+-   repo: https://github.com/asottile/reorder-python-imports
     rev: v3.9.0
     hooks:
     -   id: reorder-python-imports
         args: [--py37-plus, --add-import, 'from __future__ import annotations']
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.2.0
+    rev: v1.3.0
     hooks:
     -   id: mypy
         additional_dependencies: [types-all]
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.14.8
+    rev: typos-dict-v0.9.26
     hooks:
       - id: typos
 -   repo: https://github.com/shellcheck-py/shellcheck-py
