@@ -32,7 +32,6 @@ repos:
     rev: v3.0.0
     hooks:
     -   id: add-trailing-comma
-        args: [--py36-plus]
 -   repo: https://github.com/asottile/pyupgrade
     rev: v3.8.0
     hooks:
