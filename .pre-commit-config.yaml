@@ -50,7 +50,7 @@ repos:
     -   id: mypy
         additional_dependencies: [types-all]
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.17.2
+    rev: v1.18.1
     hooks:
       - id: typos
 -   repo: https://github.com/shellcheck-py/shellcheck-py
