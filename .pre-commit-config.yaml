@@ -29,12 +29,12 @@ repos:
     hooks:
     -   id: add-trailing-comma
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.2
+    rev: v3.16.0
     hooks:
     -   id: pyupgrade
         args: [--py38-plus]
 -   repo: https://github.com/asottile/reorder-python-imports
-    rev: v3.12.0
+    rev: v3.13.0
     hooks:
     -   id: reorder-python-imports
         args: [--py38-plus, --add-import, 'from __future__ import annotations']
@@ -45,12 +45,12 @@ repos:
         additional_dependencies:
           - flake8-bugbear
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.9.0
+    rev: v1.10.0
     hooks:
     -   id: mypy
         additional_dependencies: [types-all]
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.20.9
+    rev: typos-dict-v0.11.20
     hooks:
       - id: typos
 -   repo: https://github.com/shellcheck-py/shellcheck-py
