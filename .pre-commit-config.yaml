@@ -39,18 +39,18 @@ repos:
     -   id: reorder-python-imports
         args: [--py38-plus, --add-import, 'from __future__ import annotations']
 -   repo: https://github.com/pycqa/flake8
-    rev: 7.1.0
+    rev: 7.1.1
     hooks:
     -   id: flake8
         additional_dependencies:
           - flake8-bugbear
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.11.0
+    rev: v1.11.2
     hooks:
     -   id: mypy
         additional_dependencies: [types-all]
 -   repo: https://github.com/crate-ci/typos
-    rev: v1.23.5
+    rev: v1.24.6
     hooks:
       - id: typos
 -   repo: https://github.com/shellcheck-py/shellcheck-py
